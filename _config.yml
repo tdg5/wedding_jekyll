@@ -14,4 +14,4 @@ redcarpet:
   ]
 tagline: We should've done this a long time ago!
 title: Lily & Danny
-url: http://192.168.1.5:4040
+url: http://localhost:4040

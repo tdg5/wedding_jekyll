@@ -3,17 +3,17 @@ body, html {
   background: #000 url(/assets/images/chalkboard.jpg) repeat;
   margin: 0;
   min-height: 100%;
-  min-width: 100%;
+  min-width: 480px;
   padding: 0;
 }
 
 .bulbs {
   background: url(/assets/images/bulbs4.svg) repeat-x;
+  min-height: 320px;
 }
 
 .card-wrapper {
   padding: 0;
-  padding-top: 10em;
   min-height: 100%;
   min-width: 480px;
   margin-left: auto;
@@ -22,26 +22,34 @@ body, html {
 }
 
 .card {
-  /*background-color: #444;*/
-  /*background-color: rgba(63, 63, 63, 0.95);*/
-  /*background: #000 url(/assets/images/chalkboard.jpg) repeat;*/
   color: #fff;
-  min-height: 95%;
+  margin: 0 auto 3em;
+  min-height: 100%;
   min-width: 90%;
-  padding: 2.5% 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header {
+
+}
+
+.numbered {
+  list-style: upper-roman;
 }
 
 .script {
   font-family: Shapely;
   font-size: 2em;
-  text-align: center;
+  line-height: 2em;
 }
 
 .print {
   /*color: #444;*/
   font-family: "Dance Hall JNL";
   font-size: 2em;
-  text-align: center;
   transform: uppercase;
 }
 
@@ -49,12 +57,54 @@ body, html {
   font-size: 3em;
 }
 
+.unadorned {
+  list-style: none;
+}
+
+a.unadorned,
+a.unadorned:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.unadorned:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  margin: 0;
+  padding: 1em 0 2em;
+}
+
+.nav li {
+  width: 24%;
+  display: inline-block;
+}
+
+.nav a,
+.nav a:visited {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav li:hover {
+  cursor: pointer;
+}
+
+.nav li:hover a {
+  text-decoration: underline;
+}
+
 .no-margin {
   margin: 0;
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 1400px) {
   .bulbs {
     background-size: contain;
+    min-height: 280px;
   }
 }

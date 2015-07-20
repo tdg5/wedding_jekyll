@@ -4,7 +4,8 @@ layout: compress
 <!DOCTYPE html>
 <html class="no-js" lang="{% page_language %}">
 {% include head.html %}
-<body class="bulbs {% layout_class %} {{ page.format }}">
+<body class="{% layout_class %} {{ page.format }}">
+  <div class="header bulbs"></div>
   {{ content }}
 </body>
 </html>
