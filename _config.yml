@@ -1,0 +1,17 @@
+language: en-US
+markdown: redcarpet
+redcarpet:
+  extensions: [
+    autolink,
+    disable_indented_code_blocks,
+    fenced_code_blocks,
+    footnotes,
+    no_intra_emphasis,
+    space_after_headers,
+    strikethrough,
+    tables,
+    underline
+  ]
+tagline: We should've done this a long time ago!
+title: Lily & Danny
+url: http://192.168.1.5:4040

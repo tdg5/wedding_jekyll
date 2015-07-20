@@ -1,0 +1,60 @@
+body, html {
+  /*background: #e29a8c;*/
+  background: #000 url(/assets/images/chalkboard.jpg) repeat;
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+.bulbs {
+  background: url(/assets/images/bulbs4.svg) repeat-x;
+}
+
+.card-wrapper {
+  padding: 0;
+  padding-top: 10em;
+  min-height: 100%;
+  min-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.card {
+  /*background-color: #444;*/
+  /*background-color: rgba(63, 63, 63, 0.95);*/
+  /*background: #000 url(/assets/images/chalkboard.jpg) repeat;*/
+  color: #fff;
+  min-height: 95%;
+  min-width: 90%;
+  padding: 2.5% 0;
+}
+
+.script {
+  font-family: Shapely;
+  font-size: 2em;
+  text-align: center;
+}
+
+.print {
+  /*color: #444;*/
+  font-family: "Dance Hall JNL";
+  font-size: 2em;
+  text-align: center;
+  transform: uppercase;
+}
+
+.lg {
+  font-size: 3em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+@media only screen and (min-width: 880px) {
+  .bulbs {
+    background-size: contain;
+  }
+}
