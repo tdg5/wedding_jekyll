@@ -115,7 +115,7 @@ a.unadorned:hover {
 }
 
 .pink {
-  background: #e29a8c;
+  background: #e29a8c url(/assets/images/pink-chalkboard.jpg) repeat;
 }
 
 .pink .bulbs {
