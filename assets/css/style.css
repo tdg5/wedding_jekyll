@@ -5,6 +5,24 @@ body, html {
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Shapely';
+  src: url('../fonts/Shapely.eot');
+  src: url('../fonts/Shapely.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Shapely.woff2') format('woff2'),
+       url('../fonts/Shapely.woff') format('woff'),
+       url('../fonts/Shapely.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DanceHallJNL';
+  src: url('../fonts/DanceHallJNL.eot');
+  src: url('../fonts/DanceHallJNL.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DanceHallJNL.woff2') format('woff2'),
+       url('../fonts/DanceHallJNL.woff') format('woff'),
+       url('../fonts/DanceHallJNL.ttf') format('truetype');
+}
+
 .bulbs {
   background-size: cover;
   min-height: 240px;
@@ -68,7 +86,7 @@ body, html {
 }
 
 .sans-serif {
-  font-family: "Dance Hall JNL";
+  font-family: DanceHallJNL;
   font-size: 2em;
   transform: uppercase;
 }
