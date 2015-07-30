@@ -133,6 +133,10 @@ a.unadorned:hover {
   margin-bottom: .5em;
 }
 
+.margin-top-sm {
+  margin-top: .5em;
+}
+
 /* Media styles */
 
 @media only screen and (min-width: 420px) {
@@ -156,6 +160,10 @@ a.unadorned:hover {
 @media only screen and (min-width: 1200px) {
   .bulbs {
     min-height: 320px;
+  }
+
+  .column {
+    width: 500px;
   }
 }
 
