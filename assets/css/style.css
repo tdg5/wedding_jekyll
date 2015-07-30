@@ -29,7 +29,7 @@ body, html {
 }
 
 .card-wrapper {
-  padding: 0;
+  padding: 0 1em;
   min-height: 100%;
   min-width: 480px;
   margin-left: auto;
@@ -48,8 +48,9 @@ body, html {
   text-align: center;
 }
 
-.lg {
-  font-size: 3em;
+.copy {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-bottom: 1em;
 }
 
 .nav {
@@ -58,8 +59,13 @@ body, html {
 }
 
 .nav li {
-  width: 24%;
+  border-right: 1px solid #fff;
   display: inline-block;
+  width: 24%;
+}
+
+.nav li:last-child {
+  border: 0;
 }
 
 .nav a,
@@ -88,17 +94,19 @@ body, html {
 .sans-serif {
   font-family: DanceHallJNL;
   font-size: 2em;
-  transform: uppercase;
+  line-height: 2.25;
+  text-transform: uppercase;
 }
 
 .script {
   font-family: Shapely;
   font-size: 2em;
-  line-height: 2.25em;
+  line-height: 2.25;
 }
 
 .unadorned {
   list-style: none;
+  margin: 0;
 }
 
 a.unadorned,
@@ -109,6 +117,40 @@ a.unadorned:visited {
 
 a.unadorned:hover {
   text-decoration: underline;
+}
+
+/* Overriding styles */
+
+.heading {
+  font-size: 3em;
+}
+
+.lg {
+  font-size: 3em;
+}
+
+.margin-bottom-sm {
+  margin-bottom: .5em;
+}
+
+/* Media styles */
+
+@media only screen and (min-width: 420px) {
+  .columns:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  .column {
+    float: left;
+    line-height: 2em;
+    width: 340px;
+  }
+
+  .column:first-child {
+    width: 200px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -130,6 +172,7 @@ a.unadorned:hover {
 
 .dark .bulbs {
   background: url(/assets/images/bulbs-dark.svg) repeat-x top center;
+  background-size: cover;
 }
 
 .blue {
