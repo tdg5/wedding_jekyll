@@ -132,20 +132,20 @@ a.unadorned:hover {
   background: url(/assets/images/bulbs-dark.svg) repeat-x top center;
 }
 
-.pink {
-  background: #e29a8c url(/assets/images/pink-chalkboard.jpg) repeat;
+.blue {
+  background: #0091d4 url(/assets/images/blue-chalkboard.jpg) repeat;
 }
 
-.pink .bulbs {
+.blue .bulbs {
   background: url(/assets/images/bulbs-light.svg) repeat-x top center;
 }
 
-.pink .sans-serif,
-.pink a.unadorned,
-.pink a.unadorned:visited {
+.blue .sans-serif,
+.blue a.unadorned,
+.blue a.unadorned:visited {
   color: #333;
 }
 
-.pink .script {
-  color: #ee7;
+.blue .script {
+  color: #fff;
 }
