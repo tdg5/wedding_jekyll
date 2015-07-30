@@ -149,3 +149,13 @@ a.unadorned:hover {
 .blue .script {
   color: #fff;
 }
+
+#map-canvas {
+  color: #000;
+  height: 540px;
+  margin-bottom: 1em;
+}
+
+.gm-style .gm-style-iw {
+  width: 200px;
+}
