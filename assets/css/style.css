@@ -101,7 +101,7 @@ body, html {
 .script {
   font-family: Shapely;
   font-size: 2em;
-  line-height: 2.25;
+  line-height: 3.5;
 }
 
 .unadorned {
@@ -127,7 +127,6 @@ a.unadorned:hover {
 
 .lg {
   font-size: 3em;
-  line-height: 3;
 }
 
 .margin-bottom-sm {
