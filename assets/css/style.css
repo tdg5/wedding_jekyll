@@ -5,6 +5,10 @@ body, html {
   padding: 0;
 }
 
+a, a:visited {
+  color: #fff;
+}
+
 @font-face {
   font-family: 'Shapely';
   src: url('../fonts/Shapely.eot');
